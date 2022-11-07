@@ -1,28 +1,34 @@
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Web Quiz</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="stylesheet" href="./assets/primary-style.css">
     </head>
+    
     <body>
-        <header>
-
+        
+        <header class="quiz-intro">
+            <button>View Highscores</button>
+            <h1>Timer: 00:00</h1>
+  
         </header>
+        
         <main>
             
-        </main>
-            <div>
-                <div>
-                    <div>
-                    
-                    </div>
-                </div>
-            </div>
+            <section id="start-menu">
+               <h1>Press me To Play games!</h1> 
+               <button id="start">Play!</button>
+            </section>
+            <section id="quiz" class="hide">
+                <h1 id="question">Here's the Quiz Question!</h1> 
+                <div id="answer-holder">
 
+                </div>
+             </section>
+        </main>
+            <script src="./assets/script.js"></script>
     </body>
 </html>
-
 
